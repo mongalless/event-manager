@@ -16,11 +16,11 @@ ActiveRecord::Schema.define(version: 2018_06_25_100319) do
   enable_extension "plpgsql"
 
   create_table "events", force: :cascade do |t|
-    t.string "title"
-    t.datetime "start_date"
-    t.datetime "review_date"
-    t.datetime "end_date"
-    t.string "tags"
+    t.string "title", null: false
+    t.datetime "start_date", null: false
+    t.datetime "review_date", null: false
+    t.datetime "end_date", null: false
+    t.string "tags", null: false
     t.boolean "completed"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
