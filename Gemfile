@@ -66,3 +66,6 @@ gem 'devise'
 
 # Make all tests in spec directory
 gem 'rspec-rails'
+
+# Generation data for demostration
+gem 'faker'

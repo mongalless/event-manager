@@ -6,13 +6,19 @@
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel='stylesheet' type='text/css'>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
-    <p class="notice"><%= notice %></p>
-    <p class="alert"><%= alert %></p>
-    
-    <%= yield %>
+    <div class="container-fluid">
+      <div class="panel panel-default panel-table">
+        <h1 align="center">Event manager</h1>
+        <p class="notice"><%= notice %></p>
+        <p class="alert"><%= alert %></p>
+      
+        <%= yield %>
+      </div>
+    </div>
   </body>
 </html>
