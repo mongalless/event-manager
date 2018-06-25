@@ -38,3 +38,29 @@
 - Test coverage
 - Describe pattern usage in project readme (optional)
 - Deployment to heroku, or any other cloud (optional)
+
+## USAGE PATTERNS:
+#### Website URL is ...
+- Go to root of project
+- If you want to create profile, click on "Sign up" link.
+  - If you are already have profile, click on "Log in" link.
+- "Sign up": enter any email, password for this mail, and confirm password by typing it below again, press sign up button.
+  - If you are already have profile, but misclicked "Sign up" link, click on "Log in" link here.
+- Click on "Go to list of events" link
+  - If you want logout, click on "Logout" link.
+  - If you want delete or edit profile, click on "Edit profile"
+- To create new event, click on "Add new event" link on top
+  - If you want examine event, click on his "Show" link
+  - If you want edit event data, click on his "Edit" link
+  - If you want delete event, click on his "Destroy" link
+- "Add new event": 
+  - Enter title, choose dates, add tags, click on "Complited" box, press "Create Event" button
+- "Examine event":
+  - If you want see list of events, click on "Back" link
+  - If you want edit event data, click on his "Edit" link
+- "Edit event": 
+  - Rewrite new title, choose new dates, rewrite or add new tags, click on "Complited" box, press "Update Event" button
+  - If you want see list of events, click on "Back" link
+- "Delete new event":
+  - Press "OK" button, to delete event
+  - Press "Cancel" button, to leave it in database
