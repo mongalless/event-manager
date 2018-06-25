@@ -8,11 +8,11 @@ REQUIREMENTS:
 - English - at least intermediate;
 
 ADDITIONAL
-experience with trailblazer gem (http://trailblazer.to/blog/2017-12-trailblazer-2-1-what-you-need-to-know.html)
-experience with google api
+- experience with trailblazer gem (http://trailblazer.to/blog/2017-12-trailblazer-2-1-what-you-need-to-know.html)
+- experience with google api
 
 REQUIRED READING
-https://codeclimate.com/blog/7-ways-to-decompose-fat-activerecord-models/
+- https://codeclimate.com/blog/7-ways-to-decompose-fat-activerecord-models/
 
 TASK:
 Create simple event management application. Requirements : 
@@ -29,12 +29,11 @@ Level 1:
 - [ ] User can get events from google calendar
 
 Advised gems:
-Devise
-Omniauth-google-oauth2
-Rspec
+- Devise
+- Omniauth-google-oauth2
+- Rspec
 
 Technical requirements for implementation:
-Test coverage
-Describe pattern usage in project readme (optional)
-Deployment to heroku, or any other cloud (optional)
-
+- Test coverage
+- Describe pattern usage in project readme (optional)
+- Deployment to heroku, or any other cloud (optional)
