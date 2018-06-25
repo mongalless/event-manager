@@ -40,7 +40,7 @@
 - Deployment to heroku, or any other cloud (optional)
 
 ## USAGE PATTERNS:
-#### Website URL is ...
+#### Website URL is https://mongalless-event-manager.herokuapp.com/
 - Go to root of project
 - If you want to create profile, click on "Sign up" link.
   - If you are already have profile, click on "Log in" link.
